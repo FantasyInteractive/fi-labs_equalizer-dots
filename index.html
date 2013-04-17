@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Equalizer Dots</title>
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="">
+
+    <div id="main-wrapper" class="fi-sony-component">
+
+      <div id="balls" class="fi-sony-component" data-component="fi.labs.Balls">
+        <canvas width="100%" height="100%"></canvas>
+      </div>
+
+    </div>
+
+    <!-- Scripts -->
+
+    <!-- Libraries -->
+    <script src="assets/js/libs/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="static/js/libs/jquery-1.7.1.min.js">\x3C/script>')</script>
+    <script type="text/javascript" src="assets/js/libs/plugins.js"></script>
+    <script type="text/javascript" src="assets/js/libs/dat.gui.min.js"></script>
+
+    <!-- Common -->
+    <script type="text/javascript" src="assets/js/project/componentLoader.js"></script>
+    <script type="text/javascript" src="assets/js/project/main.js"></script>
+
+    <!-- Components -->
+    <script type="text/javascript" src="assets/js/project/balls.js"></script>
+
+    <!-- Bootstrap -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        fi.labs.Main.initialize();
+      });
+    </script>
+
+  </body>
+</html>
